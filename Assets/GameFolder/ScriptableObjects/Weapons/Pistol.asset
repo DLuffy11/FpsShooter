@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7734c97352783124595260c60048380a, type: 3}
+  m_Name: Pistol
+  m_EditorClassIdentifier: 
+  _name: Pistol
+  _damage: 14
+  _fireRate: 2
+  _maxBullets: 12
+  _maxClips: 4
+  _fireSound: {fileID: 8300000, guid: 3cb9cc6cad8f23c49acbf364dfd29447, type: 3}
+  _impactSound: {fileID: 0}
+  _weaponPrefab: {fileID: 1820657422340577334, guid: 56434b7be39797b4f8c0a782f3ad06d9,
+    type: 3}
+  _hitParticlePrefab: {fileID: 3463157229188906966, guid: 47096eff328e11a418ace7db2d72aa97,
+    type: 3}
+  _hitCharacterParticlePrefab: {fileID: 163734, guid: 0a5ac034133a7654a8565697adff5548,
+    type: 3}
+  _imageUI: {fileID: 21300000, guid: 014f186a144b10344a2e9fa92eecc158, type: 3}
+  CurrentBullets: 0
+  CurrentClips: 0

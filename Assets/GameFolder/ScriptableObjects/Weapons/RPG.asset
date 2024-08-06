@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7734c97352783124595260c60048380a, type: 3}
+  m_Name: RPG
+  m_EditorClassIdentifier: 
+  _name: RPG
+  _damage: 100
+  _fireRate: 1
+  _maxBullets: 3
+  _maxClips: 4
+  _fireSound: {fileID: 8300000, guid: 40e71b0f7bd610849b40f150553f4702, type: 3}
+  _impactSound: {fileID: 0}
+  _weaponPrefab: {fileID: 3029118362568787767, guid: ec8471004eff61a43a157c3a03ffe37f,
+    type: 3}
+  _hitParticlePrefab: {fileID: 1764654978243476, guid: a98b15aa948478849b54661e4d9a317e,
+    type: 3}
+  _hitCharacterParticlePrefab: {fileID: 163734, guid: 0a5ac034133a7654a8565697adff5548,
+    type: 3}
+  _imageUI: {fileID: 21300000, guid: af0c21407971f8e41b16319ff96b2577, type: 3}
+  CurrentBullets: 0
+  CurrentClips: 0

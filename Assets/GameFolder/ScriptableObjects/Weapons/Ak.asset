@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7734c97352783124595260c60048380a, type: 3}
+  m_Name: Ak
+  m_EditorClassIdentifier: 
+  _name: AK47
+  _damage: 13
+  _fireRate: 7
+  _maxBullets: 30
+  _maxClips: 6
+  _fireSound: {fileID: 8300000, guid: 8e02b5bef2272354b85c9bc08d917d00, type: 3}
+  _impactSound: {fileID: 0}
+  _weaponPrefab: {fileID: 8468305059737302006, guid: f49767bbe4a9e644a89dea9d642383a6,
+    type: 3}
+  _hitParticlePrefab: {fileID: 7728366230342544413, guid: 212ef1a41838ce044a9ac54994866708,
+    type: 3}
+  _hitCharacterParticlePrefab: {fileID: 163734, guid: 0a5ac034133a7654a8565697adff5548,
+    type: 3}
+  _imageUI: {fileID: 21300000, guid: 0b3df6fbccc1d1047997d03bdfa6bd6e, type: 3}
+  CurrentBullets: 0
+  CurrentClips: 0
